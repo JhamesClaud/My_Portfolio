@@ -1,0 +1,77 @@
+.name{
+  color:blue;
+  margin-left: 20px;
+}
+
+h1{
+  color:blue;
+}
+body{
+  background-color:lightblue;
+}
+
+img{
+  display: block;
+  margin: auto;
+  
+}
+
+
+
+{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.navbar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color:lightblue;
+	padding: 1em;
+	border-radius: 0 0 0 10px;
+}
+
+.nav-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 20px;
+}
+
+.nav-item {
+	margin: 20px;
+	padding: 10px;
+}
+
+.nav-item a {
+	color: blue;
+	text-decoration: none;
+	transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+.nav-item a:hover {
+	color: #ccc;
+}
+
+
+button{
+  color: blue;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+button:rover{
+  color: white;
+  
+}
+
